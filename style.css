@@ -1,0 +1,332 @@
+.search {
+  width: 375px;
+  margin: 0 auto;
+}
+.search .input {
+  font-size: 30px;
+  padding: 10px 5px;
+  border: none;
+}
+.search ul {
+  width: 375px;
+  text-align: left;
+  list-style: none;
+  background: #fff;
+  position: absolute;
+  z-index: 2;
+}
+.search ul .item {
+  font-size: 25px;
+  cursor: pointer;
+  color: #000;
+  padding: 10px 5px;
+}
+.search ul .item:hover {
+  background: #ddd;
+}
+.results {
+  display: none;
+  z-index: 1;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.5);
+  margin: 30px 400px 0 400px;
+  text-align: center;
+}
+.results .country {
+  margin: 30px 0;
+}
+.results .info_flag {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 30px 0;
+}
+.results .info_flag .flag {
+  height: 15vh;
+}
+.results .info_flag .info {
+  width: 35vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.results .info_flag .info p {
+  font-size: 30px;
+}
+h2 {
+  font-size: 60px;
+  margin: 80px 0 0 0;
+}
+span {
+  font-size: 40px;
+}
+.firstDiv {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  height: 190px;
+  margin: 80px 0;
+}
+.firstDiv .firstp {
+  margin: 60px 0 0 0;
+  line-height: 8vh;
+  font-size: 40px;
+  width: 20vw;
+  height: 8vh;
+  border-radius: 10px;
+  background: royalBlue;
+  box-shadow: 10px 10px rgba(0,0,0,0.5);
+}
+.firstDiv .secondDiv {
+  display: flex;
+  gap: 50px;
+}
+.firstDiv .secondDiv .thirdDiv .secondp {
+  box-shadow: 10px 10px rgba(0,0,0,0.5);
+  margin: 23px 0;
+  font-size: 35px;
+  width: 23vw;
+  border-radius: 10px;
+  background: #cb0e08;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.firstDiv .secondDiv .thirdDiv .secondp:hover {
+  transform: scale(1.2);
+  text-decoration: underline;
+  box-shadow: 12px 12px rgba(0,0,0,0.5);
+}
+.Game {
+  display: none;
+  border-radius: 10px;
+  height: 60vh;
+  background: rgba(0,0,0,0.5);
+  width: 70vw;
+  margin: 30px auto;
+}
+.Game .timer {
+  margin: auto 50px auto 0;
+}
+.Game .timer .gif {
+  width: 5vw;
+}
+.Game .timer .time {
+  font-size: 40px;
+  width: 5vw;
+  color: #000;
+  background: #fff;
+  border-radius: 10px;
+}
+.Game .GameFlag {
+  height: 30vh;
+  margin: auto 0 auto 50px;
+}
+.Game .GameCC {
+  border-radius: 20vh;
+  line-height: 30vh;
+  height: 30vh;
+  width: 20vw;
+  margin: auto 0 auto 50px;
+  font-size: 70px;
+  color: #000;
+  background: rgba(255,255,255,0.8);
+}
+.Game div {
+  margin: auto 50px;
+}
+.Game div #h {
+  line-height: 70px;
+  font-size: 50px;
+}
+.Game div input {
+  font-size: 40px;
+  width: 15vw;
+  border: none;
+  padding: 10px 5px;
+}
+.score {
+  display: none;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.5);
+  text-align: center;
+  width: 70vw;
+  height: 60vh;
+  margin: 30px auto;
+}
+.score div {
+  font-size: 70px;
+}
+.score div p {
+  margin: 0 0 50px 0;
+}
+.score div .option {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 10px 10px rgba(0,0,0,0.5);
+}
+.score div .option:hover {
+  transform: scale(1.2);
+  text-decoration: underline;
+  box-shadow: 12px 12px rgba(0,0,0,0.5);
+}
+.score div #replay1 {
+  background: #cb0e08;
+}
+.score div #replay2 {
+  background: #cb0e08;
+}
+.score div #replay3 {
+  background: #cb0e08;
+}
+.score div #replay4 {
+  background: #cb0e08;
+}
+.score div #comment {
+  background: royalBlue;
+  color: #fff;
+}
+.score div a {
+  text-decoration: none;
+}
+.comments {
+  text-align: left;
+  margin: 0 auto;
+  width: 25vw;
+}
+.comments div {
+  background: rgba(0,0,0,0.6);
+  height: 75vh;
+  color: #fff;
+  font-size: 40px;
+  overflow-y: scroll;
+}
+.comments input {
+  width: 25vw;
+  height: 5vh;
+  font-size: 25px;
+  border: none;
+  background: rgba(0,0,0,0.9);
+  color: #fff;
+}
+.form {
+  height: 70vh;
+  width: 20vw;
+  margin: 8vh auto 0 auto;
+  background: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  border: #fff solid 2px;
+}
+.form p {
+  font-size: 40px;
+  padding: 3vh 0 1vh 0;
+}
+.form .change {
+  font-size: 20px;
+  padding: 0;
+  cursor: pointer;
+}
+.form .change:hover {
+  text-decoration: underline;
+}
+.form input {
+  font-size: 25px;
+  width: 15vw;
+  margin: 3vh auto;
+  padding: 20px 10px;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.9);
+  border: none;
+  color: #fff;
+}
+.form button {
+  border: none;
+  background: #cb0e08;
+  color: #fff;
+  width: 10vw;
+  padding: 10px 5px;
+  border-radius: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  margin: 3vh auto 0 auto;
+}
+#logIn {
+  height: 60vh;
+}
+#register {
+  display: none;
+}
+.txt {
+  font-size: 40px;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  background: url("./othersImages/worldMap.jpg") no-repeat;
+  background-size: cover;
+}
+header {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+header .left {
+  background: url("./othersImages/glob.gif") no-repeat;
+  background-size: contain;
+  width: 80px;
+  height: 80px;
+}
+header .right {
+  background: url("./othersImages/glob.gif") no-repeat;
+  background-size: contain;
+  width: 80px;
+  height: 80px;
+}
+header nav {
+  border-radius: 10px;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  padding: 0 30px;
+  gap: 40px;
+}
+header nav a {
+  text-decoration: none;
+  margin: 30px 0;
+  color: #fff;
+  font-size: 25px;
+  border-radius: 10px;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+header nav div {
+  margin: 8px 0;
+  text-align: center;
+}
+header nav div img {
+  width: 2.5vw;
+}
+header nav div p {
+  color: #fff;
+}
+main {
+  color: #fff;
+  text-align: center;
+}
+main h1 {
+  line-height: 100px;
+  margin: 200px 300px 0;
+  font-size: 60px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  padding: 20px;
+}

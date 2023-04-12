@@ -1,0 +1,62 @@
+@import "learn.styl"
+    @import "games.styl"
+        @import "comments.styl"
+            @import "logIn.styl"
+
+*
+    box-sizing: border-box
+    margin 0
+    padding 0
+
+::-webkit-scrollbar
+    display: none
+body 
+    background: url(./othersImages/worldMap.jpg) no-repeat
+    background-size: cover
+
+header
+    margin: 30px 0
+    display flex
+    justify-content: space-evenly
+    .left  
+        background: url(./othersImages/glob.gif) no-repeat
+        background-size: contain
+        width 80px
+        height: 80px
+    .right  
+        background: url(./othersImages/glob.gif) no-repeat
+        background-size: contain
+        width 80px
+        height: 80px
+    nav 
+        border-radius: 10px
+        background: rgba(0, 0, 0, 0.5)
+        display flex
+        justify-content: center
+        padding: 0 30px
+        gap: 40px
+        a  
+            text-decoration: none
+            margin: 30px 0
+            color: white
+            font-size: 25px
+            border-radius: 10px
+        a:hover
+            text-decoration: underline
+        div 
+            margin: 8px 0
+            text-align: center
+            img
+                width: 2.5vw 
+            p
+                color: white
+main  
+    color: white
+    text-align: center
+    h1 
+        line-height: 100px
+        margin: 200px 300px 0
+        font-size: 60px
+        background: rgba(0, 0, 0, 0.5)
+        border-radius: 10px
+        padding: 20px
