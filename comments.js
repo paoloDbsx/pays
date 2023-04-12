@@ -8,6 +8,7 @@ let logIn = document.querySelector("#logIn");
 let register = document.querySelector("#register");
 let logInButton = document.querySelector("#logInButton");
 let registerButton = document.querySelector("#registerButton");
+let com = document.querySelector(".com");
 
 // display the forms
 
@@ -29,3 +30,9 @@ function displayForm(i) {
   }
 }
 
+// generate random color
+
+let colors = ["blue", "green", "yellow", "red", "white", "pink"];
+let random_color = colors[Math.floor(Math.random() * colors.length)];
+
+com.style.color = random_color;

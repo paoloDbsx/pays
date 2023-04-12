@@ -13,5 +13,5 @@ $mysqlClient = new PDO('mysql:host=localhost;dbname=europa;charset=utf8', 'root'
 foreach($comments as $i){
     $txtP = $i["comment"];
     $user_idP = $i["pseudo"];
-    echo "$user_idP :&nbsp $txtP <br>";
+    echo "<p><b class='com' >$user_idP</b> :&nbsp $txtP</p>";
 }

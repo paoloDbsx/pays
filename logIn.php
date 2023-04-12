@@ -1,10 +1,10 @@
 <?php
       session_start();
-      if (isset($_SESSION)) {
-        if (isset($_SESSION['name'])) {
-          header("Location: learn.php");
-        }
-      }
+      // if (isset($_SESSION)) {
+      //   if (isset($_SESSION['name'])) {
+      //     header("Location: learn.php");
+      //   }
+      // }
     ?>
 <!DOCTYPE html>
 <html lang="en">
