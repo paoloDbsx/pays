@@ -21,7 +21,7 @@
         <div>
           <img src="./othersImages/profil.png" alt="">
           <p> <?php
-             include "pseudo.php"
+            include "pseudo.php"
         ?></p>
 
         </div>
