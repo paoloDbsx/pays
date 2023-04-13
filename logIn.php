@@ -19,10 +19,10 @@
     <header>
       <div class="left"></div>
       <nav>
-        <a href="learn.php">Découvrir</a>
-        <a href="games.php">Mini-jeux</a>
-        <a href="comments.php">Notes & Commentaires</a>
-        <a href="logIn.php">Connexion</a>
+        <a href="learn">Découvrir</a>
+        <a href="games">Mini-jeux</a>
+        <a href="comments">Notes & Commentaires</a>
+        <a href="logIn">Connexion</a>
         <div>
           <img src="./othersImages/profil.png" alt="">
           <p>
@@ -97,6 +97,6 @@
         ?>
         </div>
     </main>
-    <script src="comments.js"></script>
+    <script src="commentsJava.js"></script>
   </body>
 </html>

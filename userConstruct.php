@@ -16,6 +16,20 @@ $password = filter_input(
     INPUT_POST,
     "password",
 );
+$randomColor = rand(1,4);
+echo $randomColor;
+if ($randomColor === 1) {
+    $color = "blue";
+}
+else if ($randomColor === 2) {
+    $color = "green";
+}
+else if ($randomColor === 3) {
+    $color = "yellow";
+}
+else {
+    $color = "red";
+}
 $password_hash = password_hash($password, PASSWORD_DEFAULT);
 $query = $connection->prepare("SELECT * FROM utilisateur WHERE pseudo=:pseudo");
 $query->bindParam("pseudo", $pseudo ,PDO::PARAM_STR);
@@ -31,10 +45,11 @@ else if ($query->rowCount() === 0){
         echo "<p class='txt'>Cette adresse mail est déjà enregistré!</p>";
     }
     else if ($query->rowCount() === 0){
-        $query = $connection->prepare("INSERT INTO utilisateur (pseudo, mail, password) VALUES (:pseudo, :mail, :password_hash)");
+        $query = $connection->prepare("INSERT INTO utilisateur (pseudo, mail, password, color) VALUES (:pseudo, :mail, :password_hash, :color)");
         $query->bindParam("pseudo", $pseudo, PDO::PARAM_STR);
         $query->bindParam("mail", $mail, PDO::PARAM_STR);
         $query->bindParam("password_hash", $password_hash, PDO::PARAM_STR);
+        $query->bindParam("color", $color, PDO::PARAM_STR);
         $result = $query->execute();
         if ($result) {
             echo "<p class='txt'>C'est bon! Ton enregistrement s'est parfaitement déroulé.</p>";

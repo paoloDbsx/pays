@@ -32,7 +32,7 @@ function displayForm(i) {
 
 // generate random color
 
-let colors = ["blue", "green", "yellow", "red", "white", "pink"];
-let random_color = colors[Math.floor(Math.random() * colors.length)];
+// let colors = ["blue", "green", "yellow", "red", "white", "pink"];
+// let random_color = colors[Math.floor(Math.random() * colors.length)];
 
-com.style.color = random_color;
+// com.style.color = random_color;

@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule ^learn$ learn.php
+RewriteRule ^accueil$ index.php
+RewriteRule ^comments$ comments.php
+RewriteRule ^games$ games.php
+RewriteRule ^logIn$ logIn.php
+ErrorDocument 404 /error1.html
