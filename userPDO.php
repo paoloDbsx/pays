@@ -21,6 +21,7 @@ $result = $query->fetch(PDO::FETCH_ASSOC);
         if (password_verify($password1, $result['password'])) {
             $_SESSION['user_id'] = $result['userID'];
             $_SESSION['name'] = $result['pseudo'];
+            $_SESSION['image'] = $result['image'];
             echo "<p class='txt'>Félicitations! Vous êtes connectés!</p>";
         } else {
             echo "<p class='txt'>Veuillez vérifier votre pseudo et votre mot de passe!</p>";

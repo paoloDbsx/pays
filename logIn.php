@@ -24,12 +24,9 @@
         <a href="comments">Notes & Commentaires</a>
         <a href="logIn">Connexion</a>
         <div>
-          <img src="./othersImages/profil.png" alt="">
-          <p>
-          <?php
+        <?php
             include "pseudo.php"
         ?>
-        </p>
         </div>
       </nav>
       <div class="right"></div>
@@ -42,7 +39,7 @@
                 type="text"
                 name="pseudo1"
                 minlength="4"
-                maxlength="15"
+                maxlength="20"
                 placeholder="Pseudo"
                 pattern= "[a-zA-Z0-9]+" 
                 required
@@ -50,7 +47,7 @@
             <input 
                 type="password" 
                 name="password1" 
-                minlength="7"
+                minlength="4"
                 maxlength="50"
                 placeholder="Mot de passe"
                 required 
@@ -84,7 +81,7 @@
             <input 
                 type="password" 
                 name="password" 
-                minlength="7"
+                minlength="4"
                 maxlength="50"
                 placeholder="Mot de passe"
                 required 

@@ -19,10 +19,9 @@
         <a href="comments">Notes & Commentaires</a>
         <a href="logIn">Connexion</a>
         <div>
-          <img src="./othersImages/profil.png" alt="">
-          <p> <?php
-             include "pseudo.php"
-        ?></p>
+        <?php
+            include "pseudo.php"
+        ?>
         </div>
       </nav>
       <div class="right"></div>

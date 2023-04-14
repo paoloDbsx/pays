@@ -26,28 +26,26 @@
         <a href="comments">Notes & Commentaires</a>
         <a href="logIn">Connexion</a>
         <div>
-          <img src="./othersImages/profil.png" alt="">
-          <p> <?php
+        <?php
             include "pseudo.php"
-        ?></p>
-
+        ?>
         </div>
       </nav>
       <div class="right"></div>
     </header>
     <main>
       <section class="comments">
-      <form action="" method="post">
-          <input type="text" name="comment" placeholder="Ecrit un commentaire ..." required/>
-        </form>
         <?php
             include "comConstruct.php";
         ?>
-        <div>
+        <div class="spaceComments">
           <?php
             include "comPDO.php"          
           ?>
       </div>  
+      <form action="" method="post">
+          <input type="text" name="comment" placeholder="Ecrit un commentaire ..." required/>
+        </form>
       </section>
     </main>
     <script src="commentsJava.js"></script>

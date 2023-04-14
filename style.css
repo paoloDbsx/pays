@@ -196,18 +196,33 @@ span {
   margin: 0 auto;
   width: 25vw;
 }
-.comments div {
-  background: rgba(0,0,0,0.6);
+.comments .spaceComments {
+  background: rgba(0,0,0,0.9);
   height: 75vh;
-  font-size: 40px;
+  font-size: 20px;
   overflow-y: scroll;
+  line-height: 4vh;
+}
+.comments .spaceComments .flex {
+  display: flex;
+}
+.comments .spaceComments .flex img {
+  margin: 15px 0 0 15px;
+  width: 40px;
+  height: 40px;
+}
+.comments .spaceComments .flex .text {
+  margin: 15px 15px 0 15px;
+}
+.comments .spaceComments p {
+  margin: 0 0 0 70px;
 }
 .comments input {
   width: 25vw;
   height: 5vh;
-  font-size: 25px;
+  font-size: 20px;
   border: none;
-  background: rgba(0,0,0,0.9);
+  background: rgba(43,43,43,0.9);
   color: #fff;
 }
 .form {

@@ -14,6 +14,11 @@ foreach($comments as $i){
     $txtP = $i["comment"];
     $user_idP = $i["pseudo"];
     $color = $i["color"];
-    echo "<p><b class='com' style='color:$color;'>$user_idP</b> :<br>$txtP</p>
+    $image = $i["image"];
+    echo "<div class='flex'><img src='$image' alt=''>
+    <p class='text'><b class='com' style='color:$color;'>@$user_idP</b></p></div> <p>$txtP</p>
     <hr style='width:25vw; margin: 0 auto; color: rgb(0, 0, 0)'>";
 }
+
+
+

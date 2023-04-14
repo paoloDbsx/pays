@@ -29,10 +29,3 @@ function displayForm(i) {
     displayLogIn();
   }
 }
-
-// generate random color
-
-// let colors = ["blue", "green", "yellow", "red", "white", "pink"];
-// let random_color = colors[Math.floor(Math.random() * colors.length)];
-
-// com.style.color = random_color;
