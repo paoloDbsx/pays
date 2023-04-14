@@ -18,9 +18,15 @@
         <a href="games">Mini-jeux</a>
         <a href="comments">Notes & Commentaires</a>
         <a href="logIn">Connexion</a>
-        <div>
+        <div class="LOGout">
         <?php
             include "pseudo.php"
+        ?>
+        <form method="post" class="logOut">
+          <input class="Logout" name="Logout" type="submit" value="Se déconnecter">
+        </form>
+        <?php
+            include "logOut.php";
         ?>
         </div>
       </nav>
@@ -98,5 +104,6 @@
     </main>
     <script src="countries.js"></script>
     <script src="games.js"></script>
+    <script src="commentsJava.js"></script>
   </body>
 </html>

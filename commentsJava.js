@@ -22,6 +22,12 @@ function displayLogIn() {
   logIn.style.display = "block";
 }
 
+let z = document.querySelector(".z");
+z.addEventListener("click", function () {
+  setTimeout(() => {
+    location.reload();
+  }, 1000);
+});
 function displayForm(i) {
   if (i === 1) {
     displayRegister();
@@ -29,3 +35,10 @@ function displayForm(i) {
     displayLogIn();
   }
 }
+
+let logOut = document.querySelector(".logOut");
+let logout = document.querySelector(".logout");
+
+logout.addEventListener("click", () => {
+  logOut.classList.toggle("LOgout");
+});

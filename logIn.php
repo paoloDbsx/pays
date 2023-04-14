@@ -27,6 +27,12 @@
         <?php
             include "pseudo.php"
         ?>
+        <form method="post" class="logOut">
+          <input class="Logout" name="Logout" type="submit" value="Se déconnecter">
+        </form>
+        <?php
+            include "logOut.php";
+        ?>
         </div>
       </nav>
       <div class="right"></div>
@@ -52,7 +58,7 @@
                 placeholder="Mot de passe"
                 required 
             /> <br>
-            <button type="submit" name="logIn" value="logIn" id="logInButton">OK</button>
+            <button type="submit" class="z" name="logIn" value="logIn" id="logInButton">OK</button>
         </form>
         <div>
         <?php
@@ -92,6 +98,7 @@
         <?php
              include "userConstruct.php"
         ?>
+        
         </div>
     </main>
     <script src="commentsJava.js"></script>
