@@ -347,9 +347,22 @@ main h1 {
 .logout {
   cursor: pointer;
 }
+.logout:hover {
+  text-decoration: underline;
+}
 .logOut {
   display: none;
   position: absolute;
+  background: #cb0e08;
+  padding: 10px 5px;
+  border-radius: 5px;
+  margin: 20px 15px 0 0;
+  cursor: pointer;
+}
+.logOut .Logout {
+  border: none;
+  color: #fff;
+  background: #cb0e08;
 }
 .LOgout {
   display: block;

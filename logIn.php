@@ -23,16 +23,15 @@
         <a href="games">Mini-jeux</a>
         <a href="comments">Notes & Commentaires</a>
         <a href="logIn">Connexion</a>
-        <div>
+        <div style="text-align: center;">
         <?php
-            include "pseudo.php"
-        ?>
-        <form method="post" class="logOut">
-          <input class="Logout" name="Logout" type="submit" value="Se déconnecter">
-        </form>
-        <?php
+            include "pseudo.php";
             include "logOut.php";
         ?>
+        <form method="post" class="logOut">
+          <input class="Logout" name="Logout" type="submit" value="Déconnexion">
+        </form>
+        
         </div>
       </nav>
       <div class="right"></div>

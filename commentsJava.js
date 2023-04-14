@@ -1,5 +1,8 @@
 // comments
 
+let comments = document.querySelector(".spaceComments");
+window.scrollTo(0, comments.scrollHeight);
+
 // register and logIn
 
 // display variables
@@ -22,12 +25,6 @@ function displayLogIn() {
   logIn.style.display = "block";
 }
 
-let z = document.querySelector(".z");
-z.addEventListener("click", function () {
-  setTimeout(() => {
-    location.reload();
-  }, 1000);
-});
 function displayForm(i) {
   if (i === 1) {
     displayRegister();

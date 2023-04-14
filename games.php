@@ -22,12 +22,6 @@
         <?php
             include "pseudo.php"
         ?>
-        <form method="post" class="logOut">
-          <input class="Logout" name="Logout" type="submit" value="Se déconnecter">
-        </form>
-        <?php
-            include "logOut.php";
-        ?>
         </div>
       </nav>
       <div class="right"></div>
@@ -104,6 +98,5 @@
     </main>
     <script src="countries.js"></script>
     <script src="games.js"></script>
-    <script src="commentsJava.js"></script>
   </body>
 </html>
