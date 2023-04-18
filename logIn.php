@@ -26,17 +26,18 @@
         <div style="text-align: center;">
         <?php
             include "pseudo.php";
-            include "logOut.php";
         ?>
-        <form method="post" class="logOut">
-          <input class="Logout" name="Logout" type="submit" value="Déconnexion">
-        </form>
-        
         </div>
       </nav>
       <div class="right"></div>
     </header>
     <main>
+    <form method="post" class="logOut">
+          <input class="Logout" name="Logout" type="submit" value="Déconnexion">
+        </form>
+        <?php
+            include "logOut.php";
+        ?>
     <form action="" method="post" id="logIn" class="form">
           <p>Connectez-vous Maintenant !</p>
           <p class="change" onclick="displayForm(1)">register</p>

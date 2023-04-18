@@ -33,9 +33,6 @@ function displayForm(i) {
   }
 }
 
-let logOut = document.querySelector(".logOut");
 let logout = document.querySelector(".logout");
 
-logout.addEventListener("click", () => {
-  logOut.classList.toggle("LOgout");
-});
+logout.addEventListener("click", () => {});
