@@ -1,5 +1,5 @@
 <?php
 
 if (isset($_POST['Logout'])) {
-    session_unset() ;
+    unset($_SESSION['name']);
 }

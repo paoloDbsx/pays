@@ -7,5 +7,3 @@ if (isset($_SESSION['name'])) {
                 <p class='logout'>$Sp</p>";
         }
 }
-   
-
