@@ -48,7 +48,7 @@
         </form>
       </section>
     </main>
-    <script src="commentsJava.js"></script>
+
   </body>
 </html>
 

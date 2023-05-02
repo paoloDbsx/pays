@@ -92,7 +92,7 @@
                 placeholder="Mot de passe"
                 required 
             /> <br>
-            <button type="submit" id="registerButton" name="register" value="register" onclick="displayLogIn()">OK</button>
+            <button type="submit" id="registerButton" name="register" value="register" onclick="displayForm(2)">OK</button>
         </form>
         <div>
         <?php

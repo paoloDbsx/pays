@@ -1,8 +1,5 @@
 // comments
 
-let comments = document.querySelector(".spaceComments");
-window.scrollTo(0, comments.scrollHeight);
-
 // register and logIn
 
 // display variables
@@ -14,7 +11,6 @@ let registerButton = document.querySelector("#registerButton");
 let com = document.querySelector(".com");
 
 // display the forms
-
 function displayRegister() {
   logIn.style.display = "none";
   register.style.display = "block";
@@ -32,7 +28,3 @@ function displayForm(i) {
     displayLogIn();
   }
 }
-
-let logout = document.querySelector(".logout");
-
-logout.addEventListener("click", () => {});
