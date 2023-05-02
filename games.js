@@ -15,7 +15,7 @@ let input = document.querySelector("input");
 // score variables
 
 let score = document.querySelector(".score");
-let f = document.querySelector("#f");
+let f = document.querySelector(" #f");
 let nbQuestions;
 let counter;
 let click;
